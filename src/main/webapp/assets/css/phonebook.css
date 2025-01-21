@@ -1,0 +1,152 @@
+/* 전체 페이지 스타일 */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* 폼 스타일 */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52,152,219,0.3);
+}
+
+/* 버튼 스타일 */
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* 링크 스타일 */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+    width: 30%;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+/* 삭제/수정 버튼 행 스타일 */
+tr:last-child td {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* 삭제/수정 링크 스타일 */
+table a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+table a[href*="삭제"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+table a[href*="수정"] {
+    background-color: #f39c12;
+    color: white;
+}
+
+table a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* 추가번호 등록 링크 스타일 */
+.add-number {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.add-number:hover {
+    background-color: #27ae60;
+    text-decoration: none;
+}
