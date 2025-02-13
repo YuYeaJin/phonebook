@@ -118,7 +118,7 @@
 
 	<build>
 		<!-- 톰캣 배포시 war 파일의 이름이 Context Path가 됩니다.-->
-		<finalname>phonebook</finalname>
+		<finalName>phonebook</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
